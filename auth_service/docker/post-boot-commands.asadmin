@@ -1,0 +1,8 @@
+# Comandos que se ejecutan después del arranque del dominio
+# Configuración del datasource para MySQL
+
+create-jdbc-connection-pool --datasourceclassname com.mysql.cj.jdbc.MysqlDataSource --restype javax.sql.DataSource --property user=${ENV=DB_USER}:password=${ENV=DB_PASSWORD}:url="jdbc:mysql://${ENV=DB_HOST}:${ENV=DB_PORT}/${ENV=DB_NAME}?useSSL=false&allowPublicKeyRetrieval=true" mysql-pool
+
+create-jdbc-resource --connectionpoolid mysql-pool mysql-database
+
+ping-connection-pool mysql-pool

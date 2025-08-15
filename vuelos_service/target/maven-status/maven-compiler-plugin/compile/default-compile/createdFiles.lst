@@ -1,0 +1,14 @@
+ec\edu\aero_condor_java_soap\config\CORSFilter.class
+ec\edu\aero_condor_java_soap\model\Vuelos.class
+ec\edu\aero_condor_java_soap\model\Amortizacion.class
+ec\edu\aero_condor_java_soap\JakartaRestConfiguration.class
+ec\edu\aero_condor_java_soap\model\Ciudades.class
+ec\edu\aero_condor_java_soap\model\CompraBoletoRequest.class
+ec\edu\aero_condor_java_soap\model\VueloCompra.class
+ec\edu\aero_condor_java_soap\controller\AeroCondorController.class
+ec\edu\aero_condor_java_soap\model\Escalas.class
+ec\edu\aero_condor_java_soap\model\Facturas.class
+ec\edu\aero_condor_java_soap\model\Asientos.class
+ec\edu\aero_condor_java_soap\resources\JakartaEE10Resource.class
+ec\edu\aero_condor_java_soap\model\Boletos.class
+ec\edu\aero_condor_java_soap\model\Usuarios.class
